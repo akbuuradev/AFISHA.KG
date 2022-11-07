@@ -40,6 +40,14 @@ body {
     height: 46px;
     background: #013475;
     border-radius: 39px;
+
+
+}
+#menu {
+    background: #000;
+    position: sticky;
+    top:0;
+    z-index: 99;
 }
 .header-title a {
     font-weight: 400;
