@@ -123,11 +123,18 @@ body {
 .hero-icon {
     display: flex;
     align-items: center;
+    padding: 10px 0;
 }
 .hero-icon ion-icon {
     color: #FFFFFF;
     font-size: 20px;
-    padding: 0 10px 0 0;
+    padding: 0 5px 0 0;
+}
+.hero-icon p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
 /*block*/
 #block {
