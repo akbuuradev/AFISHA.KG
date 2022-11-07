@@ -106,27 +106,28 @@ body {
     font-size: 15px;
     padding: 0 5px 0 0;
 }
-.hero-btn h3 {
+.hero-som {
+    display: flex;
+    align-items: center;
+}
+.hero-som a {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0 10px 0 0;
+}
+.hero-som h3 {
     font-weight: 500;
     font-size: 13px;
     color: #FFFFFF;
 }
-.hero-btn h3 a {
-    font-weight: 600;
+.hero-icon {
+    display: flex;
+    align-items: center;
+}
+.hero-icon ion-icon {
+    color: #FFFFFF;
     font-size: 20px;
-    color: #FFFFFF;
-    padding: 0 5px 0 0;
-}
-.hero-btn p {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-    color: #FFFFFF;
-    padding: 15px 0;
-}
-.hero-btn p ion-icon {
-    font-size: 17px;
-    color: #ffffff;
+    padding: 0 10px 0 0;
 }
 /*block*/
 #block {
