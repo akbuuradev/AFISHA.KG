@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*border: none;*/
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+#header {
+    background:black;
+}
+.header {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 50px 0;
+}
+.header-img img {
+    padding: 0 200px 0 60px;
+}
+.header input {
+    width: 330px;
+    height: 30px;
+    background: darkgrey;
+    border-radius: 16px;
+    padding: 0 25px;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1380px;
+    height: 46px;
+    background: #013475;
+    border-radius: 39px;
+}
+.header-title a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/*hero*/
+#hero {
+    background: black;
+    min-height: 95vh;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.hero h1 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 0 50px;
+}
+.hero ion-icon {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 0 60px;
+}
+.hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hero-btn a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.hero-btn h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.hero-btn h2 {
+    font-weight: 600;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 0 0 15px 0;
+}
+.hero-btn h2 ion-icon {
+    font-size: 15px;
+    padding: 0 5px 0 0;
+}
+.hero-btn h3 {
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.hero-btn h3 a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 0 5px 0 0;
+}
+.hero-btn p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+.hero-btn p ion-icon {
+    font-size: 17px;
+    color: #ffffff;
+}
+/*block*/
+#block {
+    background: black;
+    min-height: 70vh;
+}
+.block-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*blocks*/
+#blocks {
+    background: black;
+    min-height: 80vh;
+}
+.blocks-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*footer/*/
+#footer {
+    width: 1520px;
+    height: 290px;
+    background: #1F1F1F;
+    backdrop-filter: blur(2px);
+    padding: 40px 0;
+}
+.footer-btn {
+    padding: 0 0 0 60px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer-title {
+    padding: 0 60px;
+}
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 40px 0 15px 0;
+}
+.footer-title a {
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 60px;
+}
+.footer-icons a {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+#signin {
+    background: black;
+}
+.signin-left {
+    padding: 80px 0;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0 100px 0;
+}
+.signin-right {
+    padding: 0 40px;
+}
+.signin-right h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+.signin-icon {
+    width: 115px;
+    height: 107px;
+    margin: 0 10px;
+    background: #013475;
+    box-shadow: 18px 18px 80px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signin-icons  {
+   display: flex;
+}
+.signin-icons ion-icon {
+    padding: 30px 30px 0 0;
+    color: #032aee;
+    font-size: 30px;
+}
+.signin-icon h2 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+
+.signin-icon div {
+    color: black;
+    border: 1px solid #000000;
+    background: black;
+    width: 80px;
+}
+.signin-icon p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.signin-h5 {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+.signin-h5 ion-icon {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 0 15px 0 0;
+}
+.signin-h5 h5 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.signin-h2 {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+.signin-h2 a {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding:0 15px 0 0;
+}
+.signin-h2 h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.tuu{
+    display: flex;
+    align-items:center;
+
+}
+.tuu ion-icon{
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 0 15px 0 0;
+}
+.tuu p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+.signin-h3 {
+    display: flex;
+    align-items: center;
+}
+.signin-h3 ion-icon {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 0 15px 0 0;
+}
+.signin-h3 h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.signin-h4 {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.signin-h4 ion-icon {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 0 15px 0 0;
+}
+.signin-h4 h4 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
